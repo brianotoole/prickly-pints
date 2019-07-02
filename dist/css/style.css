@@ -646,7 +646,7 @@ p {
       .hero__left:before {
         content: "";
         position: absolute;
-        background: rgba(22, 62, 51, 0.9);
+        background: rgba(22, 62, 51, 0.95);
         left: 0;
         top: 0;
         width: 100%;
