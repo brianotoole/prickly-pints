@@ -6,9 +6,6 @@
   flex-wrap: wrap;
   position: relative;
   height: 100vh;
-  @include bp_md() {
-    flex-wrap: row;
-  }
 
   &--has-overlay {
     &:after {
@@ -37,18 +34,18 @@
   }
 
   &__logo {
-    width: 225px;
+    width: 220px;
     height: auto;
-    margin: 0 auto rem(20);
+    margin: 0 auto rem(40);
     @include bp_md {
-      width: 365px;
+      width: 350px;
     }
   }
 
   &__content {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 38%;
+    transform: translateY(-38%);
     left: 0;
     text-align: center;
     color: $color-white;
